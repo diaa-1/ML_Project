@@ -148,7 +148,7 @@ def train_model(target, X_train, y_train):
         print(" Using original data (balanced enough)")
         X_train_res, y_train_res = X_train_sub, y_train_sub
 
-    print("🏋 Training Logistic Regression model...")
+    print(" Training Logistic Regression model...")
     model = LogisticRegression(
         class_weight="balanced",
         max_iter=200,
