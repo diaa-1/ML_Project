@@ -152,7 +152,7 @@ for name, model in models.items():
         'roc_auc': roc_auc
     }
     
-    print(f"✅ {name}")
+    print(f" {name}")
     print(f"   Accuracy: {acc:.4f} | F1: {f1:.4f} | ROC-AUC: {roc_auc:.4f}")
     print(f"   Precision: {precision:.4f} | Recall: {recall:.4f}")
 
